@@ -7,6 +7,7 @@ cv = CountVectorizer()
 countMatrix = cv.fit_transform(text)
 
 print(countMatrix.toarray())
+print("Hello World Bro!!!")
 
 similarityScores = cosine_similarity(countMatrix)
 
